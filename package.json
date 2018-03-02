@@ -1,0 +1,22 @@
+{
+    "name": "react-local-corps",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": {
+        "url": "git@github.com:froglander/react-local-corps.git",
+        "type": "git"
+    },
+    "author": "Kristi Heredia <froglander@dukworld.net>",
+    "license": "MIT",
+    "dependencies": {
+        "express": "^4.16.2"
+    },
+    "devDependencies": {
+        "concurrently": "^3.5.1"
+    },
+    "scripts": {
+        "start": "concurrently \"npm run server\" \"npm run client\"",
+        "server": "node server.js",
+        "client": "node start-client.js"
+    }
+}
