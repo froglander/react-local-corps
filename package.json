@@ -1,7 +1,7 @@
 {
     "name": "react-local-corps",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "server.js",
     "repository": {
         "url": "git@github.com:froglander/react-local-corps.git",
         "type": "git"
